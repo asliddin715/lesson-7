@@ -23,7 +23,7 @@ export default async function UserPage({ params }) {
       </div>
     </div>
   ) : (
-    <div className="flex items-center justify-center  ">
+    <div className="flex items-center justify-center flex-1 ">
       <p className="text-gray-700 text-3xl">User not found.</p>
     </div>
   );
